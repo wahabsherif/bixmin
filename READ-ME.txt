@@ -1,0 +1,85 @@
+  =>  Template Name    : Constra - Building Construction Website Template
+
+  =>  Template Link    : https://htmlcodex.com/building-construction-website-template
+
+  =>  Template License : https://htmlcodex.com/license (or read the LICENSE.txt file)
+
+  =>  Template Author  : HTML Codex
+
+  =>  Author Website   : https://htmlcodex.com
+
+   <div class="testimonial">
+
+    <div class="container">
+
+        <div class="swiper testimonialSwiper">
+
+            <div class="swiper-wrapper">
+
+                <!-- Slide -->
+                <div class="swiper-slide">
+
+                    <img src="img/testimonial-1.jpg" alt="">
+
+                    <h3>John Doe</h3>
+
+                    <h4>Web Developer</h4>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+
+                </div>
+
+                <!-- Slide -->
+                <div class="swiper-slide">
+
+                    <img src="img/testimonial-2.jpg" alt="">
+
+                    <h3>Mary Smith</h3>
+
+                    <h4>Designer</h4>
+
+                    <p>
+                        Excellent support and very professional service.
+                    </p>
+
+                </div>
+
+                <!-- Slide -->
+                <div class="swiper-slide">
+
+                    <img src="img/testimonial-3.jpg" alt="">
+
+                    <h3>David Johnson</h3>
+
+                    <h4>Engineer</h4>
+
+                    <p>
+                        Highly recommended and customer friendly.
+                    </p>
+
+                </div>
+
+                <!-- Slide -->
+                <div class="swiper-slide">
+
+                    <img src="img/testimonial-4.jpg" alt="">
+
+                    <h3>Sarah Wilson</h3>
+
+                    <h4>Manager</h4>
+
+                    <p>
+                        Very smooth and amazing experience.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
