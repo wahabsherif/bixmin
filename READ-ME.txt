@@ -83,3 +83,120 @@
     </div>
 
 </div>
+\
+
+
+
+<div class="testimonial">
+
+    <div class="container">
+
+        <div class="swiper testimonialSwiper">
+
+            <div class="swiper-wrapper">
+
+                <!-- Slide 1 -->
+                <div class="swiper-slide">
+
+                    <div class="testimonial-images">
+
+                        <img class="small-img left-img" src="img/testimonial-1.jpg">
+
+                        <img class="main-img" src="img/testimonial-2.jpg">
+
+                        <img class="small-img right-img" src="img/testimonial-3.jpg">
+
+                    </div>
+
+                    <div class="quote-icon">
+                        ❝❞
+                    </div>
+                     <h3>Mr. Samuel E.</h3>
+                    <h4>Real Estate Developer</h4>
+                    <p>"Quality and reliability are important in property development, and Bixmind Global Resources Limited consistently delivers both. Their products meet industry standards, and their customer service is outstanding."</p>
+                </div>
+   <div class="swiper-slide">
+
+                    <div class="testimonial-images">
+
+                        <img class="small-img left-img" src="img/blan.jpg">
+
+                        <img class="main-img" src="img/blank.jpg">
+
+                        <img class="small-img right-img" src="img/bla.png">
+
+                    </div>
+
+                    <div class="quote-icon">
+                        ❝❞
+                   
+
+                    </div>
+ <h3>John Benson</h3>
+                    <h4>Site Supervisor</h4>
+
+
+                    <p>
+      Bixmind  Building Materials has been a dependable supplier for our building projects. Their materials are always of good quality, and they deliver on time. It’s great having a supplier we can trust for cement, steel, roof and other construction materials
+                    </p>
+
+                </div>
+                <!-- Slide 2 -->
+                <div class="swiper-slide">
+
+                    <div class="testimonial-images">
+
+                        <img class="small-img left-img" src="img/testimonial-2.jpg">
+
+                        <img class="main-img" src="img/testimonial-4.jpg">
+
+                        <img class="small-img right-img" src="img/testimonial-1.jpg">
+
+                    </div>
+
+                    <div class="quote-icon">
+                        ❝❞
+                    </div>
+
+                    <h3>John Olushola</h3>
+                    <h4>Building Contractor</h4>
+                    <p>
+                      "Bixmind Global Resources Limited has been our trusted supplier for several construction projects. Their building materials are always of excellent quality, delivered on time, and competitively priced. Their professionalism has helped us complete projects efficiently and to a high standard
+                    </p>
+
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="swiper-slide">
+
+                    <div class="testimonial-images">
+
+                        <img class="small-img left-img" src="img/testimonial-3.jpg">
+
+                        <img class="main-img" src="img/testimonial-1.jpg">
+
+                        <img class="small-img right-img" src="img/testimonial-4.jpg">
+
+                    </div>
+
+                    <div class="quote-icon">
+                        ❝❞
+                    </div>
+
+                    <h3>Sarah Wilson</h3>
+
+                    <h4>Home Owner</h4>
+
+                    <p>
+                        I purchased POP materials and ceiling accessories from Bixmind Global Resources Limited during the construction of my home. The products were durable, affordable, and exactly as described. I am very satisfied with the final finish of my house
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
