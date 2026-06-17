@@ -61,6 +61,44 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 </script>
+
+ <!-- <script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const buttons = document.querySelectorAll(".whatsapp-btn");
+
+    buttons.forEach(function (button) {
+
+        button.onclick = function (e) {
+
+            e.preventDefault();
+
+            const product = this.dataset.product;
+
+            const message = `Hi! I would like to request a quote for ${product}. Please provide pricing and availability. Thank you!`;
+
+            const phone = "2348111463008"; // Your number here
+
+            const url = "https://wa.me/" + phone + "?text=" + encodeURIComponent(message);
+
+            window.location.href = url;
+        };
+
+    });
+
+});
+</script> -->
+<!-- <script>
+    function requestQuote(product) {
+        const phone = "2348111463008";
+
+        const message = `Hi! I would like to request a quote for ${product}. Please provide pricing and availability. Thank you!`;
+
+        const whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+
+        window.open(whatsappUrl, "_blank");
+    }
+</script> -->
 <!-- 
 <script>
 new Swiper(".testimonialSwiper", {
@@ -144,7 +182,7 @@ new Swiper(".testimonialSwiper", {
                     <div class="navbar-nav ms-auto pt-2 pt-lg-0">
                         <a href="index.html" class="nav-item nav-link active">Home</a>
                         <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="about.html" class="nav-item nav-link">Our Product</a>
+                        <a href="marketplace.html" class="nav-item nav-link">Marketplace</a>
                         <a href="service.html" class="nav-item nav-link">Services</a>
                         <a href="faqs.html" class="nav-item nav-link">FAQS</a>
                         <a href="contact.html" class="nav-item nav-link">Contact</a>
@@ -183,7 +221,7 @@ new Swiper(".testimonialSwiper", {
                         <img src="img/opppppppp.jpg" class="img-fluid w-100" alt="Second slide"/>
                         <div class="carousel-caption">
                             <p class="text-uppercase text-secondary fs-4 mb-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Construction Business</p>
-                            <h1 class="display-1 text-capitalize text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">We build somethings new and consistent.</h1>
+                            <h1 class="display-4 text-capitalize text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">We build somethings new and consistent.</h1>
                             <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                             </p>
                             <div class="d-flex justify-content-center">
@@ -196,8 +234,8 @@ new Swiper(".testimonialSwiper", {
                         <img src="img/op.jpg" class="img-fluid w-100" alt="Third slide"/>
                         <div class="carousel-caption">
                             <p class="text-uppercase text-secondary fs-4 mb-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Construction Business</p>
-                            <h1 class="display-1 text-capitalize text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">We build somethings new and consistent.</h1>
-                            <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                            <h1 class="display-4 text-capitalize text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">We build somethings new and consistent.</h1>
+                            <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">Bixmindhfhg Global Resources offers professional services to ensure you get the right materials delivered on time and at the best value. Whether you’re building a home or managing a large project, we are here to help.
                             </p>
                             <div class="d-flex justify-content-center">
                                 <a class="btn btn-primary d-flex py-3 px-5 me-2 flex-shrink-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.7s;" href="#">Apply Now</a>
@@ -326,173 +364,267 @@ new Swiper(".testimonialSwiper", {
         </div>
         <!-- Features End -->
 
-        
 
-    <!-- Projects Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="section-title text-center">
-                <h1 class="display-5 mb-5">Our Products</h1>
+        -------<!-- Projects Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="section-title text-center">
+            <h1 class="display-5 mb-5">Our Products</h1>
+        </div>
+
+        <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="col-12 text-center">
+                <ul class="list-inline mb-5" id="portfolio-flters">
+                    <li class="mx-2 active" data-filter="*">All</li>
+                    <li class="mx-2" data-filter=".first">Cement</li>
+                    <li class="mx-2" data-filter=".second">Nigerite Product</li>
+                    <li class="mx-2" data-filter=".third">Paints</li>
+                    <li class="mx-2" data-filter=".forth">POP</li>
+                </ul>
             </div>
-            <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="col-12 text-center">
-                    <ul class="list-inline mb-5" id="portfolio-flters">
-                        <li class="mx-2 active" data-filter="*">All</li>
-                        <li class="mx-2" data-filter=".first">Cement</li>
-                        <li class="mx-2" data-filter=".second">Nigerite Product</li>
-                        <li class="mx-2" data-filter=".second">Paints</li>
-                    </ul>
-                </div>
-            </div>
+        </div>
 
-            <div class="row g-4 portfolio-container">
-                <div class="col-lg-3 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/bi.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center border border-5 border-light border-top-0 p-3">
-                            <p class="text-primary fw-medium mb-1">General Carpentry</p>
-                            <h5 class="mb-2">Wooden Furniture</h5>
-                            <!-- <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a> -->
-                        <a href="" class="btn btn-primary py-2 px-5">Request Quote</a>
-                        </div>
-                    </div>
-                </div>
+        <div class="row g-4 portfolio-container">
 
-                <div class="col-lg-3 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/opplll.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center border border-5 border-light border-top-0 p-3">
-                            <p class="text-primary fw-medium mb-1">General Carpentry</p>
-                            <h5 class="mb-2">Wooden Furniture</h5>
-                            <!-- <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a> -->
-                        <a href="" class="btn btn-primary py-2 px-5">Request Quote</a>
+            <!-- Product 1 -->
+            <div class="col-lg-3 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                <div class="rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/bi.jpg" alt="">
+                        <div class="portfolio-overlay">
+                            <a class="btn btn-square btn-outline-light mx-1 "
+                               href="img/portfolio-1.jpg" 
+                               data-lightbox="portfolio">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/bix7.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center border border-5 border-light border-top-0 p-3">
-                            <p class="text-primary fw-medium mb-1">General Carpentry</p>
-                            <h5 class="mb-2">Wooden Furniture</h5>
-                            <!-- <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a> -->
-                        <a href="" class="btn btn-primary py-2 px-5">Request Quote</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/bix22.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center border border-5 border-light border-top-0 p-3">
-                            <p class="text-primary fw-medium mb-1">General Carpentry</p>
-                            <h5 class="mb-2">Wooden Furniture</h5>
 
-                            <!-- <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a> -->
-                        <a href="" class="btn btn-primary py-2 px-5">Request Quote</a>
+                    <div class="text-center border border-5 second border-light border-top-0 p-3">
+                        <p class="text-primary fw-medium mb-1">Ceiling/Roofing Sheet</p>
+                        <h5 class="mb-2">Facial Board</h5>
 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/bixxxxxxx.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center border border-5 border-light border-top-0 p-3">
-                            <p class="text-primary fw-medium mb-1">General Carpentry</p>
-                            <h5 class="mb-2">Wooden Furniture</h5>
-                            <!-- <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a> -->
-                        <a href="" class="btn btn-primary py-2 px-5">Request Quote</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/bixxxxxxx.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center border border-5 border-light border-top-0 p-3">
-                            <p class="text-primary fw-medium mb-1">General Carpentry</p>
-                            <h5 class="mb-2">Wooden Furniture</h5>
-                            <!-- <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a> -->
-                        <a href="" class="btn btn-primary py-2 px-5">Request Quote</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/bixxxxxxx.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center border border-5 border-light border-top-0 p-3">
-                            <p class="text-primary fw-medium mb-1">General Carpentry</p>
-                            <h5 class="mb-2">Wooden Furniture</h5>
-                            <!-- <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a> -->
-                        <a href="" class="btn btn-primary py-2 px-5">Request Quote</a>
-                        </div>
-                    </div>
-                </div>
-               <div class="col-lg-3 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/bix22.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center border border-5 border-light border-top-0 p-3">
-                            <p class="text-primary fw-medium mb-1">General Carpentry</p>
-                            <h5 class="mb-2">Wooden Furniture</h5>
-
-                            <!-- <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a> -->
-                        <a href="" class="btn btn-primary py-2 px-5">Request Quote</a>
-
-                        </div>
+                        <a href="#"
+                           class="btn btn-primary py-2 px-5 whatsapp-btn"
+                           data-product="Facial Board 
+                           ">
+                            Request Quote
+                        </a>
                     </div>
                 </div>
             </div>
-                 <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
-                        <a class="btn btn-secondary py-2 px-5 mt-4" href="service.html">More Services</a>
+
+            <!-- Product 2 -->
+            <div class="col-lg-3 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                <div class="rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/opplll.jpg" alt="">
+                        <div class="portfolio-overlay">
+                            <a class="btn btn-square btn-outline-light mx-1"
+                               href="img/portfolio-1.jpg"
+                               data-lightbox="portfolio">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                        </div>
                     </div>
+
+                    <div class="text-center border border-5 border-light border-top-0 p-3">
+                        <p class="text-primary fw-medium mb-1">Nigerite Product</p>
+                        <h5 class="mb-2">Siniat POP</h5>
+
+                        <a href="#"
+                           class="btn btn-primary py-2 px-5 whatsapp-btn"
+                           data-product="Siniat POP">
+                            Request Quote
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="col-lg-3 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
+                <div class="rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/bix7.jpg" alt="">
+                        <div class="portfolio-overlay">
+                            <a class="btn btn-square btn-outline-light mx-1"
+                               href="img/bix7.jpg"
+                               data-lightbox="portfolio">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="text-center border border-5 border-light border-top-0 p-3">
+                        <p class="text-primary fw-medium mb-1">Board</p>
+                        <h5 class="mb-2">Board -HDF</h5>
+
+                        <a href="#"
+                           class="btn btn-primary py-2 px-5 whatsapp-btn"
+                           data-product="Board -HDF ">
+                            Request Quote
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="col-lg-3 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                <div class="rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/bix22.jpg" alt="">
+                        <div class="portfolio-overlay">
+                            <a class="btn btn-square btn-outline-light mx-1"
+                               href="img/portfolio-1.jpg"
+                               data-lightbox="portfolio">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="text-center border border-5 border-light border-top-0 p-3">
+                        <p class="text-primary fw-medium mb-1">POP Materials</p>
+                        <h5 class="mb-2">Smooth POP</h5>
+
+                        <a href="#"
+                           class="btn btn-primary py-2 px-5 whatsapp-btn"
+                           data-product="Smooth POP">
+                            Request Quote
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            
+            <!-- Product 1 -->
+            <div class="col-lg-3 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                <div class="rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/bixxxx.jpg" alt="">
+                        <div class="portfolio-overlay">
+                            <a class="btn btn-square btn-outline-light mx-1"
+                               href="img/portfolio-1.jpg"
+                               data-lightbox="portfolio">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="text-center border border-5 border-light border-top-0 p-3">
+                        <p class="text-primary fw-medium mb-1">Paints</p>
+                        <h5 class="mb-2">Expate Satin</h5>
+
+                        <a href="#"
+                           class="btn btn-primary py-2 px-5 whatsapp-btn"
+                           data-product="Expate Satin">
+                            Request Quote
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                <div class="rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/bnnn.jpg" alt="">
+                        <div class="portfolio-overlay">
+                            <a class="btn btn-square btn-outline-light mx-1"
+                               href="img/portfolio-1.jpg"
+                               data-lightbox="portfolio">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="text-center border border-5 border-light border-top-0 p-3">
+                        <p class="text-primary fw-medium mb-1">Cement</p>
+                        <h5 class="mb-2">Larfarge Elephant 50kg</h5>
+
+                        <a href="#"
+                           class="btn btn-primary py-2 px-5 whatsapp-btn"
+                           data-product="Larfarge Elephant 50kg">
+                            Request Quote
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="col-lg-3 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
+                <div class="rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/bix4.jpg" alt="">
+                        <div class="portfolio-overlay">
+                            <a class="btn btn-square btn-outline-light mx-1"
+                               href="img/portfolio-1.jpg"
+                               data-lightbox="portfolio">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="text-center border border-5 border-light border-top-0 p-3">
+                        <p class="text-primary fw-medium mb-1">POP Accessories</p>
+                        <h5 class="mb-2">Vinko-10kg</h5>
+
+                        <a href="#"
+                           class="btn btn-primary py-2 px-5 whatsapp-btn"
+                           data-product="Vinko-10kg">
+                            Request Quote
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 3 -->
+           
+
+            <!-- Product 4 -->
+            <div class="col-lg-3 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                <div class="rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/bixxi.jpg" alt="">
+                        <div class="portfolio-overlay">
+                            <a class="btn btn-square btn-outline-light mx-1"
+                               href="img/portfolio-1.jpg"
+                               data-lightbox="portfolio">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="text-center border border-5 border-light border-top-0 p-3">
+                        <p class="text-primary fw-medium mb-1">Cement</p>
+                        <h5 class="mb-2">Dangote 3x cement 50kg</h5>
+
+                        <a href="#"
+                           class="btn btn-primary py-2 px-5 whatsapp-btn"
+                           data-product="Dangote 3x cement 50kg">
+                            Request Quote
+                        </a>
+                    </div>
+                </div>
+            </div>
+             <!-- Product 2 -->
+            
+
+            <!-- Repeat the same pattern for the remaining products -->
+            <!-- Just change the image and data-product value -->
+
+        </div>
+
+        <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
+            <a class="btn btn-secondary py-2 px-5 mt-4" href="marketplace.html">
+                More Products
+            </a>
         </div>
     </div>
+</div>
+<!-- Projects End -->
+
+
+        
+
     <!-- Projects End -->
 
 
@@ -643,9 +775,9 @@ new Swiper(".testimonialSwiper", {
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
+                    <!-- <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
                         <a class="btn btn-secondary py-3 px-5 mt-4" href="service.html">More Services</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -844,7 +976,7 @@ new Swiper(".testimonialSwiper", {
                                     </div>
                                     <div id="collapseOne" class="collapse" data-parent="#accordion-1">
                                         <div class="card-body">
-                                           Yes,Bixmind Global Resources Limited offers fast and reliable nationwide delivery across Nigeria, including Lagos, Abuja, Port Harcourt and other major cities.
+                                           Yes, Bixmind Global Resources Limited offers fast and reliable nationwide delivery across Nigeria, including Lagos,Ibadan, Osun,  Abuja, Port Harcourt and other major cities.
                                         </div>
                                     </div>
                                 </div>
@@ -856,7 +988,7 @@ new Swiper(".testimonialSwiper", {
                                     </div>
                                     <div id="collapseTwo" class="collapse" data-parent="#accordion-1">
                                         <div class="card-body">
-                                            We supply a wide range of building materials including cement, sharp sand, granite, iron rods, blocks and other essential construction materials
+                                            We supply a wide range of building materials including cement, Paints, Boards, iron rods, ceilings and Roofing. and other essential construction materials
                                         </div>
                                     </div>
                                 </div>
@@ -868,7 +1000,7 @@ new Swiper(".testimonialSwiper", {
                                     </div>
                                     <div id="collapseThree" class="collapse" data-parent="#accordion-1">
                                         <div class="card-body">
-                                          The cost of building materials in Nigeria varies depending on the product and quantity. ContactBixmind Global Resources Limited for current prices and bulk order discounts
+                                          The cost of building materials in Nigeria varies depending on the product and quantity. Contact Bixmind Global Resources Limited for current prices and bulk order discounts
                                         </div>
                                     </div>
                                 </div>
@@ -884,7 +1016,7 @@ new Swiper(".testimonialSwiper", {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card wow fadeInLeft" data-wow-delay="0.5s">
+                                <!-- <div class="card wow fadeInLeft" data-wow-delay="0.5s">
                                     <div class="card-header">
                                         <a class="card-link collapsed" data-bs-toggle="collapse" href="#collapseFive">
                                             How do I get a quote for building materials?
@@ -895,7 +1027,7 @@ new Swiper(".testimonialSwiper", {
                                            You can request a quote by calling us directly or sending a message via WhatsApp. Our team will respond quickly with pricing and delivery details.
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -908,7 +1040,7 @@ new Swiper(".testimonialSwiper", {
                                     </div>
                                     <div id="collapseSix" class="collapse" data-parent="#accordion-2">
                                         <div class="card-body">
-                                            Yes, we are based in Lekki, Lagos and supply building materials across Lagos and nationwide.
+                                            Yes, we are based in Ipaja, Lagos and supply building materials across Lagos and nationwide.
                                         </div>
                                     </div>
                                 </div>
@@ -924,31 +1056,31 @@ new Swiper(".testimonialSwiper", {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card wow fadeInRight" data-wow-delay="0.3s">
+                                <div class="card wow fadeInLeft" data-wow-delay="0.5s">
                                     <div class="card-header">
-                                        <a class="card-link collapsed" data-bs-toggle="collapse" href="#collapseEight">
-                                            Lorem ipsum dolor sit amet?
+                                        <a class="card-link collapsed" data-bs-toggle="collapse" href="#collapseFive">
+                                            How do I get a quote for building materials?
                                         </a>
                                     </div>
-                                    <div id="collapseEight" class="collapse" data-parent="#accordion-2">
+                                    <div id="collapseFive" class="collapse" data-parent="#accordion-1">
                                         <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                           You can request a quote by calling us directly or sending a message via WhatsApp. Our team will respond quickly with pricing and delivery details.
                                         </div>
                                     </div>
                                 </div>
                                 <div class="card wow fadeInRight" data-wow-delay="0.4s">
                                     <div class="card-header">
                                         <a class="card-link collapsed" data-bs-toggle="collapse" href="#collapseNine">
-                                            Lorem ipsum dolor sit amet?
+                                           Do you offer discounts on large orders?
                                         </a>
                                     </div>
                                     <div id="collapseNine" class="collapse" data-parent="#accordion-2">
                                         <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                       Yes. We provide competitive pricing and special discounts for bulk purchases and long-term business partners.
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card wow fadeInRight" data-wow-delay="0.5s">
+                                <!-- <div class="card wow fadeInRight" data-wow-delay="0.5s">
                                     <div class="card-header">
                                         <a class="card-link collapsed" data-bs-toggle="collapse" href="#collapseTen">
                                             Lorem ipsum dolor sit amet?
@@ -959,7 +1091,7 @@ new Swiper(".testimonialSwiper", {
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -975,7 +1107,7 @@ new Swiper(".testimonialSwiper", {
                     <div class="col-md-6 col-lg-6 col-xl-4">
                         <div class="footer-item d-flex flex-column">
                             <div class="footer-item">
-                                <h4 class="text-white mb-4">Our Prouct</h4>
+                                <h4 class="text-white mb-4">Our Products</h4>
                                 <p class="mb-3">Our building material products includes Cement-> Lafarge, Dangote, Bua, Mangal. Nigerite Products-> ceilings and Roofing. Boards-> MDF , HDF, Marine board, Back cover. Paints-> Emulsion Paints, Gloss Paints, Satin Paints, Nails, P.O.P Cement and Accessories.</p>
                                 <!-- <div class="position-relative mx-auto">
                                     <input class="form-control w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
@@ -995,7 +1127,7 @@ new Swiper(".testimonialSwiper", {
                             <h4 class="text-white mb-4">Explore</h4>
                             <a href="index.html"><i class="fas fa-angle-right me-2"></i> Home</a>
                             <a href="about.html"><i class="fas fa-angle-right me-2"></i> About Us</a>
-                            <a href="about.html"><i class="fas fa-angle-right me-2"></i> Our Product</a>
+                            <a href="about.html"><i class="fas fa-angle-right me-2"></i>Marketplace</a>
                             <a href="service.html"><i class="fas fa-angle-right me-2"></i> Services</a>
                             <a href="faqs.html"><i class="fas fa-angle-right me-2"></i> FAQS</a>
                             <a href="contact.html"><i class="fas fa-angle-right me-2"></i> Contact Us</a>
@@ -1130,7 +1262,32 @@ new Swiper(".testimonialSwiper", {
 
 });
     </script>
-    
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+        const whatsappButtons = document.querySelectorAll(".whatsapp-btn");
+
+        whatsappButtons.forEach(button => {
+
+            button.addEventListener("click", function (e) {
+
+                e.preventDefault();
+
+                const product = this.getAttribute("data-product");
+
+                const message = `Hi! I would like to request a quote for ${product}. Please provide pricing and availability. Thank you!`;
+
+                const whatsappUrl =
+                    `https://wa.me/2348111463008?text=${encodeURIComponent(message)}`;
+
+                window.open(whatsappUrl, "_blank");
+
+            });
+
+        });
+
+    });
+</script>
     </body>
 
 </html>

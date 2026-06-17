@@ -270,3 +270,288 @@ Ajibade , behind UI , ibadan , Oyo state, Ipaja Lagos State, </a></p>
             </div>
         </div>
         <!-- Footer End -->
+
+
+
+
+    <!-- Projects Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="section-title text-center">
+                <h1 class="display-5 mb-5">Our Products</h1>
+            </div>
+            <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-12 text-center">
+                    <ul class="list-inline mb-5" id="portfolio-flters">
+                        <li class="mx-2 active" data-filter="*">All</li>
+                        <li class="mx-2" data-filter=".first">Cement</li>
+                        <li class="mx-2" data-filter=".second">Nigerite Product</li>
+                        <li class="mx-2" data-filter=".second">Paints</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row g-4 portfolio-container">
+                <div class="col-lg-3 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/bi.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center border border-5 border-light border-top-0 p-3">
+                            <p class="text-primary fw-medium mb-1">General Carpentry</p>
+                            <h5 class="mb-2">Wooden Furniture</h5>
+                            <!-- <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a> -->
+                        <a href="" class="btn btn-primary py-2 px-5">Request Quote</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/opplll.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center border border-5 border-light border-top-0 p-3">
+                            <p class="text-primary fw-medium mb-1">General Carpentry</p>
+                            <h5 class="mb-2">Wooden Furniture</h5>
+                            <!-- <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a> -->
+                        <a href="" class="btn btn-primary py-2 px-5">Request Quote</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/bix7.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center border border-5 border-light border-top-0 p-3">
+                            <p class="text-primary fw-medium mb-1">General Carpentry</p>
+                            <h5 class="mb-2">Wooden Furniture</h5>
+                            <!-- <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a> -->
+                        <a href="" class="btn btn-primary py-2 px-5">Request Quote</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/bix22.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center border border-5 border-light border-top-0 p-3">
+                            <p class="text-primary fw-medium mb-1">General Carpentry</p>
+                            <h5 class="mb-2">Wooden Furniture</h5>
+
+                            <!-- <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a> -->
+                        <a href="" class="btn btn-primary py-2 px-5">Request Quote</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/bixxxxxxx.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center border border-5 border-light border-top-0 p-3">
+                            <p class="text-primary fw-medium mb-1">General Carpentry</p>
+                            <h5 class="mb-2">Wooden Furniture</h5>
+                            <!-- <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a> -->
+                        <a href="" class="btn btn-primary py-2 px-5">Request Quote</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/bixxxxxxx.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center border border-5 border-light border-top-0 p-3">
+                            <p class="text-primary fw-medium mb-1">General Carpentry</p>
+                            <h5 class="mb-2">Wooden Furniture</h5>
+                            <!-- <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a> -->
+                        <a href="" class="btn btn-primary py-2 px-5">Request Quote</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/bixxxxxxx.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center border border-5 border-light border-top-0 p-3">
+                            <p class="text-primary fw-medium mb-1">General Carpentry</p>
+                            <h5 class="mb-2">Wooden Furniture</h5>
+                            <!-- <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a> -->
+                        <a href="" class="btn btn-primary py-2 px-5">Request Quote</a>
+                        </div>
+                    </div>
+                </div>
+               <div class="col-lg-3 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/bix22.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center border border-5 border-light border-top-0 p-3">
+                            <p class="text-primary fw-medium mb-1">General Carpentry</p>
+                            <h5 class="mb-2">Wooden Furniture</h5>
+
+                            <!-- <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a> -->
+                        <a href="" class="btn btn-primary py-2 px-5">Request Quote</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+                 <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
+                        <a class="btn btn-secondary py-2 px-5 mt-4" href="service.html">More Services</a>
+                    </div>
+        </div>
+    </div>
+
+
+                            style="height: 500px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.33750346623!2d-73.97968099999999!3d40.6974881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1694259649153!5m2!1sen!2sbd" 
+
+
+
+footer
+ <!-- Footer Start -->
+        <div class="container-fluid footer py-1 wow fadeIn" data-wow-delay="0.2s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item d-flex flex-column">
+                            <div class="footer-item">
+                                <h4 class="text-white mb-4">Our Prouct</h4>
+                                <p class="mb-3">Our building material products includes Cement-> Lafarge, Dangote, Bua, Mangal. Nigerite Products-> ceilings and Roofing. Boards-> MDF , HDF, Marine board, Back cover. Paints-> Emulsion Paints, Gloss Paints, Satin Paints, Nails, P.O.P Cement and Accessories.</p>
+                                <!-- <div class="position-relative mx-auto">
+                                    <input class="form-control w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
+                                    <button type="button" class="btn btn-secondary position-absolute top-0 end-0 py-2 mt-2 me-2">SignUp</button>
+                                </div> -->
+                            </div>
+                               <div class="footer-btn d-flex align-items-center">
+                                <a class="btn btn-secondary btn-md-square me-2" href=""><i class="fab fa-facebook-f text-white"></i></a>
+                                <a class="btn btn-secondary btn-md-square me-2" href=""><i class="fab fa-twitter text-white"></i></a>
+                                <a class="btn btn-secondary btn-md-square me-2" href=""><i class="fab fa-instagram text-white"></i></a>
+                                <a class="btn btn-secondary btn-md-square me-0" href=""><i class="fab fa-linkedin-in text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Explore</h4>
+                            <a href="index.html"><i class="fas fa-angle-right me-2"></i> Home</a>
+                            <a href="about.html"><i class="fas fa-angle-right me-2"></i> About Us</a>
+                            <a href="about.html"><i class="fas fa-angle-right me-2"></i> Our Product</a>
+                            <a href="service.html"><i class="fas fa-angle-right me-2"></i> Services</a>
+                            <a href="faqs.html"><i class="fas fa-angle-right me-2"></i> FAQS</a>
+                            <a href="contact.html"><i class="fas fa-angle-right me-2"></i> Contact Us</a>
+                        </div>
+                    </div>
+                    <!-- <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Our Services</h4>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> General Construction</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Property Maintenance</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Project Managment</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Virtual Design & Build</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Residential Construction</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Preconstruction</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Design Build</a>
+                        </div>
+                    </div> -->
+                    <div class="col-md-6 col-lg-6 col-xl-5">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-2">Contact Info</h4>
+                            <p class="mb-1"> <a href=""><i class="fa fa-map-marker-alt me-2"></i> 1, Yusuph Street, off david Ogundele, Ipaja Lagos State,</a></p>
+<p class="mb-1"><a href=""><i class="fa fa-map-marker-alt me-2"></i> 1, Akdo Junction, Awotan Road, Apete, Ibadan</a></p>
+<!-- <p class="mb-1"><a href=""><i class="fa fa-map-marker-alt me-2"></i> 1, Carpenter Junc, Adj. Vanguard Pharmacy Eleyele, Ibadan</a></p> -->
+<!-- <p class="mb-1"><a href=""><i class="fa fa-map-marker-alt me-2"></i> 1, Beside New A   jibade Central Mosque, Iseyin Road Moniya Ibadan</a></p> -->
+<p class="mb-1"><a href=""><i class="fa fa-map-marker-alt me-2"></i> Lamini Junction, Akufo Road, Ibadan</a></p>
+<p class="mb-1"><a href=""><i class="fa fa-map-marker-alt me-2"></i> Ajibade, Behind UI, Ibadan</a></p>
+
+                            <a href=""><i class="fas fa-envelope me-2"></i> bixmind@yahoo.com</a>
+                            <a href=""><i class="fas fa-phone me-2"></i>08111463008, 08035676746</a>
+                            <a href="" class="mb-3"><i class="fas fa-print me-2"></i> 08053026557</a>
+                            <!-- <div class="footer-btn d-flex align-items-center">
+                                <a class="btn btn-secondary btn-md-square me-2" href=""><i class="fab fa-facebook-f text-white"></i></a>
+                                <a class="btn btn-secondary btn-md-square me-2" href=""><i class="fab fa-twitter text-white"></i></a>
+                                <a class="btn btn-secondary btn-md-square me-2" href=""><i class="fab fa-instagram text-white"></i></a>
+                                <a class="btn btn-secondary btn-md-square me-0" href=""><i class="fab fa-linkedin-in text-white"></i></a>
+                            </div> -->
+                        </div>
+                    </div>
+
+                    <!-- <div class="col-md-6 col-lg-6 col-xl-4">
+    <div class="footer-item d-flex flex-column">
+
+        <h4 class="text-white mb-4">Contact Info</h4>
+
+        <p class="mb-1">
+            <i class="fa fa-map-marker-alt me-2"></i>
+            <strong>Lagos:</strong> 1, Yusuph Street, Off David Ogundele Road, Ipaja
+        </p>
+
+        <p class="mb-1">
+            <i class="fa fa-map-marker-alt me-2"></i>
+            <strong>Surulere:</strong> Aahose Area, Surulere, Lagos
+        </p>
+
+        <p class="mb-2">
+            <i class="fa fa-map-marker-alt me-2"></i>
+            <strong>Ibadan:</strong> Ajibade Area, Behind UI, Oyo State
+        </p>
+
+        <a href="mailto:bixmind@yahoo.com" class="mb-2">
+            <i class="fas fa-envelope me-2"></i>
+            bixmind@yahoo.com
+        </a>
+
+        <a href="tel:08111463008">
+            <i class="fas fa-phone me-2"></i>
+            0811 146 3008
+        </a>
+
+        <div class="footer-btn d-flex align-items-center mt-3">
+            <a class="btn btn-secondary btn-md-square me-2" href="#"><i class="fab fa-facebook-f text-white"></i></a>
+            <a class="btn btn-secondary btn-md-square me-2" href="#"><i class="fab fa-instagram text-white"></i></a>
+            <a class="btn btn-secondary btn-md-square me-2" href="#"><i class="fab fa-whatsapp text-white"></i></a>
+        </div>
+
+    </div>
+</div> -->
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
